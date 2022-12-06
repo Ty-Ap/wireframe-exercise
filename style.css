@@ -1,0 +1,71 @@
+header {
+  background-color: #444;
+  position: fixed;
+  top:0;
+  left:0;
+  right:0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 30px black;
+  width: auto;
+}
+
+header *{
+  display: inline;
+} 
+
+header li{
+  margin:40px;
+}
+
+header img {
+  height: 200px 70px;
+}
+
+h2{
+  font-weight: 900;
+}
+
+/* .nav{
+  background-color: blue;
+  text-align: center;
+} */
+
+
+
+main {
+  width: 960px;
+  margin: 50;
+}
+
+.subImg{
+  display:flex;
+}
+
+
+#scroll{
+  height: 300px;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  scrollbar-width:thick;
+  scrollbar-color: grey;
+}
+
+section{
+  display: flex;
+}
+
+button {
+  transition: 350ms;
+}
+
+button:hover {
+  background-color: red;
+}
+
+footer {
+
+  background-color: #444;
+  height: 50px;
+}
